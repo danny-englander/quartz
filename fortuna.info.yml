@@ -1,6 +1,6 @@
 name: fortuna
 type: theme
-'base theme': stable9
+"base theme": false
 starterkit: true
 version: VERSION
 libraries:
@@ -19,4 +19,19 @@ libraries-extend:
   core/drupal.progress:
     - fortuna/progress
 core_version_requirement: ^10
-generator: 'starterkit_theme:10.2.2'
+generator: "starterkit_theme:10.2.2"
+
+regions:
+  top_bar: Top Bar
+  header: Header
+  primary_menu: Primary menu
+  page_top: Page top
+  highlighted: Highlighted
+  help: Help
+  breadcrumb: Breadcrumb
+  content: Content
+  sidebar_first: Left sidebar
+  sidebar_second: Right sidebar
+  footer: Footer
+  page_bottom: Page bottom
+  hidden: Hidden
