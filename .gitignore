@@ -1,0 +1,9 @@
+node_modules
+*.css.map
+*.DS_Store
+components/**/*.map
+src/global/**/*.map
+mix-manifest.json
+mix.js.map
+storybook-static
+*.code-workspace
