@@ -1,0 +1,22 @@
+name: fortuna
+type: theme
+'base theme': stable9
+starterkit: true
+version: VERSION
+libraries:
+  - fortuna/base
+  - fortuna/messages
+  - core/normalize
+libraries-extend:
+  user/drupal.user:
+    - fortuna/user
+  core/drupal.dropbutton:
+    - fortuna/dropbutton
+  core/drupal.dialog:
+    - fortuna/dialog
+  file/drupal.file:
+    - fortuna/file
+  core/drupal.progress:
+    - fortuna/progress
+core_version_requirement: ^10
+generator: 'starterkit_theme:10.2.2'
