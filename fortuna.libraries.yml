@@ -2,104 +2,104 @@ base:
   version: VERSION
   css:
     component:
-      css/components/action-links.css:
+      css/starterkit-css/action-links.css:
         weight: -10
-      css/components/breadcrumb.css:
+      css/starterkit-css/breadcrumb.css:
         weight: -10
-      css/components/button.css:
+      css/starterkit-css/button.css:
         weight: -10
-      css/components/container-inline.css:
+      css/starterkit-css/container-inline.css:
         weight: -10
-      css/components/details.css:
+      css/starterkit-css/details.css:
         weight: -10
-      css/components/exposed-filters.css:
+      css/starterkit-css/exposed-filters.css:
         weight: -10
-      css/components/field.css:
+      css/starterkit-css/field.css:
         weight: -10
-      css/components/form.css:
+      css/starterkit-css/form.css:
         weight: -10
-      css/components/icons.css:
+      css/starterkit-css/icons.css:
         weight: -10
-      css/components/inline-form.css:
+      css/starterkit-css/inline-form.css:
         weight: -10
-      css/components/item-list.css:
+      css/starterkit-css/item-list.css:
         weight: -10
-      css/components/link.css:
+      css/starterkit-css/link.css:
         weight: -10
-      css/components/links.css:
+      css/starterkit-css/links.css:
         weight: -10
-      css/components/menu.css:
+      css/starterkit-css/menu.css:
         weight: -10
-      css/components/more-link.css:
+      css/starterkit-css/more-link.css:
         weight: -10
-      css/components/pager.css:
+      css/starterkit-css/pager.css:
         weight: -10
-      css/components/tabledrag.css:
+      css/starterkit-css/tabledrag.css:
         weight: -10
-      css/components/tableselect.css:
+      css/starterkit-css/tableselect.css:
         weight: -10
-      css/components/tablesort.css:
+      css/starterkit-css/tablesort.css:
         weight: -10
-      css/components/tabs.css:
+      css/starterkit-css/tabs.css:
         weight: -10
-      css/components/textarea.css:
+      css/starterkit-css/textarea.css:
         weight: -10
-      css/components/ui-dialog.css:
+      css/starterkit-css/ui-dialog.css:
         weight: -10
 dialog:
   version: VERSION
   css:
     component:
-      css/components/dialog.css:
+      css/starterkit-css/dialog.css:
         weight: -10
 dropbutton:
   version: VERSION
   css:
     component:
-      css/components/dropbutton.css:
+      css/starterkit-css/dropbutton.css:
         weight: -10
 file:
   version: VERSION
   css:
     component:
-      css/components/file.css:
+      css/starterkit-css/file.css:
         weight: -10
 image-widget:
   version: VERSION
   css:
     component:
-      css/components/image-widget.css: {  }
+      css/starterkit-css/image-widget.css: {}
 indented:
   version: VERSION
   css:
     component:
-      css/components/indented.css: {  }
+      css/starterkit-css/indented.css: {}
 messages:
   version: VERSION
   css:
     component:
-      css/components/messages.css:
+      css/starterkit-css/messages.css:
         weight: -10
 node:
   version: VERSION
   css:
     component:
-      css/components/node.css:
+      css/starterkit-css/node.css:
         weight: -10
 progress:
   version: VERSION
   css:
     component:
-      css/components/progress.css:
+      css/starterkit-css/progress.css:
         weight: -10
 search-results:
   version: VERSION
   css:
     component:
-      css/components/search-results.css: {  }
+      css/starterkit-css/search-results.css: {}
 user:
   version: VERSION
   css:
     component:
-      css/components/user.css:
+      css/starterkit-css/user.css:
         weight: -10
