@@ -1,0 +1,4 @@
+css/global.css
+src/stories/*
+css/starterkit-css/*
+components/**/*.post.css
