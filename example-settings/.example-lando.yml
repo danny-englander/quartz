@@ -1,0 +1,63 @@
+name: fortuna
+recipe: drupal10
+services:
+  database:
+    type: mariadb:10.3
+  node:
+    type: node:18
+    globals:
+      npm: latest
+    build:
+      - cd /app/web/themes/custom/fortuna && rm -rf node_modules && npm i && echo "Node modules have been reinstalled successfully!"
+    overrides:
+      ports:
+        - "9109:9109"
+        - "3000:3000"
+  appserver:
+    build:
+      - composer install
+    xdebug: true
+    config:
+      php: .lando/config/php.ini
+    overrides:
+      environment:
+        DRUSH_OPTIONS_URI: "http://fortuna.lndo.site"
+    build_as_root:
+      - echo '==========================================='
+      - echo 'The node.js container is ready. You can start storybook by typing:'
+      - echo 'lando storybook'
+      - echo 'Storybook will be available at http://localhost:9109'
+      - echo 'You can also compile Sass and all things front-end by typing'
+      - echo 'lando watch'
+      - echo 'Hint, you may want to split your terminal into 3 vertical panes if you are using iterm2 for Mac'
+      - echo 'To use hot reloading of CSS, go to http://localhost:3000'
+      - echo 'CORS takes care of mapping localhost URLs to drupal, see the documentation for more info'
+      - echo "Use lando info to confirm if these commands do not work."
+      - echo 'Check the status of startup by running "lando logs --follow --time"'
+      - echo '==========================================='
+config:
+  composer_version: 2-latest
+  via: nginx
+  database: mysql:8.0
+  webroot: ./web
+  php: 8.2
+  xdebug: true
+  config:
+    php: .lando/config/php.ini
+
+# Add additional tooling
+tooling:
+  node:
+    service: node
+  npm:
+    service: node
+  npx:
+    service: node
+  storybook:
+    service: node
+    description: Run storybook script
+    cmd: .lando/build/storybook.sh
+  watch:
+    service: node
+    description: Run Laravel Mix / watch for the front-end build
+    cmd: .lando/build/watch.sh
