@@ -1,0 +1,15 @@
+title: "Components/athena/Atoms/Button Link"
+status: experimental
+argTypes:
+  target:
+    defaultValue: ""
+    control: "radio"
+    options:
+      Empty: ""
+      Blank: "_blank"
+stories:
+  - name: "Button link"
+    args:
+      text: "Default button link"
+      href: "https://www.example.org"
+      target: "_blank"

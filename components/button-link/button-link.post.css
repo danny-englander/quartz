@@ -1,0 +1,11 @@
+@import "../../../src/css/utils/_index.css";
+
+.btn {
+  padding: 10px 20px;
+  font-weight: 600;
+  margin: 10px 0 0 0;
+  background-color: var(--secondary-dark);
+  text-decoration: none;
+  color: var(--white);
+  display: inline-block;
+}

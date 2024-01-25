@@ -1,0 +1,15 @@
+
+<div class="c-button-link">
+
+  {% if target is not empty %}
+    {% set attributes = attributes.setAttribute('target', target)
+      .setAttribute('rel', 'noopener noreferrer') %}
+  {% endif %}
+
+  <a {{ attributes.addClass('btn btn--link').setAttribute('role', 'button') }}
+    href="{{ href }}">
+    {{ text }}
+  </a>
+
+</div>
+

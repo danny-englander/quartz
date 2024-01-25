@@ -1,0 +1,11 @@
+'$schema': 'https://git.drupalcode.org/project/drupal/-/raw/10.1.x/core/modules/sdc/src/metadata.schema.json'
+name: Button Link
+description: a link that looks like a Button.
+status: experimental
+slots:
+  buttonLink: {}
+props:
+  type: object
+  properties:
+    notARealPropSchemaIsInvalidIfWeDoNotDeclareAProperty:
+      type: boolean
