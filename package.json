@@ -1,5 +1,5 @@
 {
-  "name": "athena",
+  "name": "quartz",
   "version": "1.0.0",
   "license": "MIT",
   "packageManager": "yarn@3.5.1",
@@ -47,7 +47,7 @@
     "webpack-cli": "^5.1.4"
   },
   "scripts": {
-    "storybook": "storybook dev -p 6106",
+    "storybook": "storybook dev -p 9210",
     "build-storybook": "storybook build",
     "dev": "npm run development",
     "development": "concurrently \"npm run mix-watch\" \"npm run stylelint-watch\"",
