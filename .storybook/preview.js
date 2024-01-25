@@ -1,15 +1,15 @@
 /** @type { import('@storybook/server').Preview } */
 const preview = {
   globals: {
-    drupalTheme: 'fortuna',
+    drupalTheme: 'quartz',
     supportedDrupalThemes: {
-      fortuna: { title: 'fortuna' },
+      quartz: { title: 'quartz' },
     },
   },
   parameters: {
     server: {
       // Replace this with your Drupal site URL, or an environment variable.
-      url: 'http://fortuna.lndo.site',
+      url: 'http://quartz.lndo.site',
     },
     actions: {
       argTypesRegex: "^on[A-Z].*"

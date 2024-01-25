@@ -1,4 +1,4 @@
-name: fortuna
+name: quartz
 recipe: drupal10
 services:
   database:
@@ -8,7 +8,7 @@ services:
     globals:
       npm: latest
     build:
-      - cd /app/web/themes/custom/fortuna && rm -rf node_modules && npm i && echo "Node modules have been reinstalled successfully!"
+      - cd /app/web/themes/custom/quartz && rm -rf node_modules && npm i && echo "Node modules have been reinstalled successfully!"
     overrides:
       ports:
         - "9109:9109"
@@ -21,7 +21,7 @@ services:
       php: .lando/config/php.ini
     overrides:
       environment:
-        DRUSH_OPTIONS_URI: "http://fortuna.lndo.site"
+        DRUSH_OPTIONS_URI: "http://quartz.lndo.site"
     build_as_root:
       - echo '==========================================='
       - echo 'The node.js container is ready. You can start storybook by typing:'

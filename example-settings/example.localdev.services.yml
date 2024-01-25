@@ -203,9 +203,9 @@ parameters:
     allowedHeaders: ['x-csrf-token','authorization','content-type','accept','origin','x-requested-with']
     allowedMethods: [ '*' ]
     allowedOrigins: [
-    'http://fortuna.lndo.site',
-    'http://fortuna.lndo.site:9109',
-    'http://fortuna.lndo.site:3000',
+    'http://quartz.lndo.site',
+    'http://quartz.lndo.site:9109',
+    'http://quartz.lndo.site:3000',
     'http://localhost:9109',
     'http://localhost:3000',
     ]

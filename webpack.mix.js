@@ -70,8 +70,8 @@ mix.postCss(
 // Setting up BrowserSync for hot reload.
 mix.browserSync({
   open: false,
-  host: "fortuna.lndo.site",
-  proxy: "fortuna.lndo.site",
+  host: "quartz.lndo.site",
+  proxy: "quartz.lndo.site",
   files: [
     "components/**/*post.css",
     "components/**/*.css",

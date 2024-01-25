@@ -1,28 +1,28 @@
-fortuna.small:
+quartz.small:
   label: Small
   mediaQuery: "all and (min-width: 480px)"
   weight: 0
   multipliers:
     - 1x
-fortuna.medium:
+quartz.medium:
   label: Medium
   mediaQuery: "all and (min-width: 700px)"
   weight: 1
   multipliers:
     - 1x
-fortuna.large:
+quartz.large:
   label: Large
   mediaQuery: "all and (min-width: 980px)"
   weight: 2
   multipliers:
     - 1x
-fortuna.wide:
+quartz.wide:
   label: Wide
   mediaQuery: "all and (min-width: 1200px)"
   weight: 3
   multipliers:
     - 1x
-fortuna.ultra_wide:
+quartz.ultra_wide:
   label: Ultra wide
   mediaQuery: "all and (min-width: 1440px)"
   weight: 4

@@ -1,4 +1,4 @@
-title: "Components/athena/Atoms/Button Link"
+title: "Components/quartz/Atoms/Button Link"
 status: experimental
 argTypes:
   target:

@@ -1,4 +1,4 @@
-# Fortuna, a Drupal Starterkit based theme using Single Directory Components
+# quartz, a Drupal Starterkit based theme using Single Directory Components
 
 This theme is for Drupal *Single Directory Components* which is now in Drupal 10.1 core. It also uses these contrib modules and other libraries. Most of front-end heavy lifting happens in the theme using a [CL Server patch](https://www.drupal.org/project/cl_server/issues/3369045) so that Storybook and CL server work entirely within the theme. This has been a popular request from Front-end developers.
 
@@ -19,10 +19,10 @@ This theme is for Drupal *Single Directory Components* which is now in Drupal 10
 1. Storybook server for theming and component presentation independent of Drupal, also runs inside Lando.
 
 ## Overview
-1. fortuna, a custom Starterkit theme which houses the components
+1. quartz, a custom Starterkit theme which houses the components
 1. Storybook, which makes theming a component easier as you do not need to connect it to data in Drupal
 1. A Drupal / Storybook bridge via its NPM working inside Lando, `"@lullabot/storybook-drupal-addon`
-1. Laravel Mix working inside Lando to compile CSS using PostCSS. `web/themes/custom/fortuna/webpack.mix.js` This is more secure, more up to date, and faster than Gulp.
+1. Laravel Mix working inside Lando to compile CSS using PostCSS. `web/themes/custom/quartz/webpack.mix.js` This is more secure, more up to date, and faster than Gulp.
 
 ## Get Started
 1. Add this theme to a Drupal 10 Lando / composer based project
@@ -46,7 +46,7 @@ If you need more info on how to get up and running with Xdebug, see Lando's docu
 1. [Twig Tweak](https://www.drupal.org/project/twig_tweak) - Provides a Twig extension with some useful functions and filters that can improve development experience as well as allowing Xdebug to be used in Twig templates
 
 ## NPMs
-See `web/themes/custom/fortuna/package.json` for a list of NPMs used on this project.
+See `web/themes/custom/quartz/package.json` for a list of NPMs used on this project.
 Of note is [Lullabot/storybook-drupal-addon: Storybook addon to facilitate integrating Storybook with Drupal projects.](https://github.com/lullabot/storybook-drupal-addon)
 which connects Storybook to Drupal.
 

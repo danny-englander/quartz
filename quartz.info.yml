@@ -1,23 +1,23 @@
-name: fortuna
+name: Quartz
 type: theme
 "base theme": false
 starterkit: true
 version: VERSION
 libraries:
-  - fortuna/base
-  - fortuna/messages
+  - quartz/base
+  - quartz/messages
   - core/normalize
 libraries-extend:
   user/drupal.user:
-    - fortuna/user
+    - quartz/user
   core/drupal.dropbutton:
-    - fortuna/dropbutton
+    - quartz/dropbutton
   core/drupal.dialog:
-    - fortuna/dialog
+    - quartz/dialog
   file/drupal.file:
-    - fortuna/file
+    - quartz/file
   core/drupal.progress:
-    - fortuna/progress
+    - quartz/progress
 core_version_requirement: ^10
 generator: "starterkit_theme:10.2.2"
 
