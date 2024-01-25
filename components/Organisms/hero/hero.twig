@@ -1,0 +1,42 @@
+{#
+# For slots that have an optional field, we need to do a
+# render check right in the componet template using twig set
+# and then check with a trim / is not empty.
+# A "slot" which is basically some arbitrary text
+# which will be replaced by the Drupal body text field anyway.
+# Thus, the usage of {% block body %}
+#}
+{% set body_content %}
+{% block body %}
+{# Hero body text. #}
+{{ bodyText | raw }}
+{% endblock %}
+{% endset %}
+{# ------------------------- #}
+
+<section class="c-hero">
+  <div class="c-hero__wrap">
+
+    <div class="c-hero__media-wrap">
+      <div class="c-hero__media">
+        {% block media_image %}
+        <img src="{{ mediaImage }}" width="1200" height="650" loading="eager"
+          alt="">
+        {% endblock %}
+      </div>
+    </div>
+
+    <div class="c-hero__content-wrap">
+      {# Hero heading #}
+      <div class="c-hero__heading">
+        <h2>{{ heading }}</h2>
+      </div>
+
+      {% if body_content|trim is not empty %}
+      <div class="c-hero__body-text">
+        {{ body_content }}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</section>

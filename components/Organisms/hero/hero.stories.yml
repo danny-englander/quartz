@@ -1,0 +1,8 @@
+title: Components/quartz/Organisms/Hero
+stories:
+  - name: "Hero Banner"
+    args:
+      heading: Environmentally Responsible
+      mediaImage: https://picsum.photos/id/29/1200/650
+      bodyText: |
+        <p>Green technology is kind to the environment. Let's build a humanity that thrives while being kind to the planet yo.</p>

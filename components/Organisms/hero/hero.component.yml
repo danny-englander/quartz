@@ -1,0 +1,25 @@
+$schema: https://git.drupalcode.org/project/drupal/-/raw/10.1.x/core/modules/sdc/src/metadata.schema.json
+name: Hero
+description: Hero with title, text, and image
+status: experimental
+slots:
+  body: {}
+  media_image: {}
+props:
+  type: object
+  properties:
+    heading:
+      title: Heading
+      description: The title for the hero text.
+      examples:
+        - You Are My Hero
+      type: string
+    bodyText:
+      title: Hero body text
+      type: string
+      examples:
+        - hello lorum ipsum
+    mediaImage:
+      title: Media Image
+      description: Media image for the hero.
+      type: string
