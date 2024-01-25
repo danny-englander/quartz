@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - quartz
+_core:
+  default_config_hash: "-Ac3ISpIT0PQ-whzD7_dw0SdKi6dAbRFNWdSjOiVDqg"
+id: quartz_messages
+theme: quartz
+region: hidden
+weight: -2
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: "Status messages"
+  label_display: "0"
+  provider: system
+visibility: {}

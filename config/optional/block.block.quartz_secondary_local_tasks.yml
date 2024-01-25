@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  theme:
+    - quartz
+_core:
+  default_config_hash: 2L0geP-ixCbCkEpW6BVF6H7vDUZN4ea07_Y9CociQm4
+id: quartz_secondary_local_tasks
+theme: quartz
+region: hidden
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: "Secondary tabs"
+  label_display: "0"
+  provider: core
+  primary: false
+  secondary: true
+visibility: {}
