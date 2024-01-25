@@ -1,0 +1,40 @@
+$schema: https://git.drupalcode.org/project/sdc/-/raw/1.x/src/metadata.schema.json
+name: Accordion
+status: "experimental"
+description: An Accordion component
+libraryOverrides:
+  dependencies:
+    - core/drupal
+    - core/once
+  css:
+    component:
+      accordion.css: {}
+  js:
+    accordion-library.js: { }
+    accordion.js: {}
+slots:
+  accordion_items: {}
+props:
+  type: object
+  properties:
+    items:
+      type: array
+      title: Items
+      description: Accordion items
+      items:
+        type: object
+        properties:
+          heading:
+            type: string
+            title: Accordion Title
+            description: Accordion item title
+            examples:
+              - "Accordion One"
+              - "Accordion Two"
+          ac_content:
+            type: string
+            title: Accordion Body
+            description: Accordion item body content
+            examples:
+              - "<p>Example quote paragraph. Interdum risus tortor turpis gravida sed. Risus sit et egestas tellus ac sed.</p>"
+              - "<p>Another example quote paragraph. Interdum risus tortor turpis gravida sed. Risus sit et egestas tellus ac sed.</p>"

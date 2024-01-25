@@ -1,0 +1,7 @@
+<section {{ attributes.addClass(classes, 'accordion-container c-accordion').merge(attributes) }}>
+  {% block accordion_items %}
+    {% for item in items %}
+      {{ include('quartz:accordion-item', item) }}
+    {% endfor %}
+  {% endblock accordion_items %}
+</section>

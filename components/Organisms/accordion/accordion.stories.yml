@@ -1,0 +1,30 @@
+title: Components/quartz/Organisms/Accordion
+args:
+  items:
+    - heading: "Accordion Title One"
+      ac_content:
+        "<p>hello Lorum nulla turpis proin pellentesque quis. Dolor ac vitae augue egestas ipsum at.
+        Duis lectus nec sed id. <a href='#'>Velit habitasse egestas suspendisse</a> ac turpis aliquam arcu. Diam commodo luctus amet eget.</p>"
+      id: "101"
+    - heading: "Accordion Title Two"
+      ac_content:
+        "<p>Ipsum nulla turpis proin pellentesque quis. Dolor ac vitae augue egestas ipsum at. Duis lectus nec sed id.
+        Velit habitasse egestas suspendisse ac turpis aliquam arcu. Diam commodo luctus amet eget.</p>
+        <p>Curabitur auctor, sapien a bibendum condimentum, lorem magna aliquam est, in venenatis arcu mauris nec turpis. Nullam
+        vitae neque at libero cursus fringilla at sit amet dui. Fusce imperdiet lacinia dui, non iaculis sapien cursus a.</p>
+        <p>Maecenas vitae nunc vitae augue mollis mattis. In hac habitasse platea dictumst. Morbi lacinia, nisl non maximus facilisis, nulla metus lacinia lorem,
+        non feugiat dolor est et velit. Sed egestas luctus ligula, non facilisis metus auctor vel.</p>
+        "
+      id: "102"
+    - heading: "Accordion Title Three"
+      ac_content:
+        "<p>Dolar nulla turpis proin pellentesque quis. Dolor ac vitae augue egestas ipsum at.
+        Duis lectus nec sed id. Velit habitasse egestas suspendisse ac turpis aliquam arcu. Diam commodo luctus amet eget.</p>
+        <p>Aliquam erat volutpat. Vestibulum ante nulla, lobortis quis convallis in, viverra at odio. Fusce quis urna et
+        ligula luctus ultrices. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</p>
+        <p>Aenean quis libero ligula. Suspendisse nec tincidunt nunc. Praesent in sollicitudin enim, eget condimentum justo.
+        Nunc ultricies, justo eu facilisis aliquet, dolor urna cursus mauris, id porttitor sem magna ut enim.</p>
+        "
+      id: "103"
+stories:
+  - name: "Default Accordion"

@@ -1,0 +1,10 @@
+$schema: https://git.drupalcode.org/project/sdc/-/raw/1.x/src/metadata.schema.json
+name: Accordion Item
+status: "experimental"
+slots:
+  body: {}
+props:
+  type: object
+  properties:
+    notARealPropSchemaIsInvalidIfWeDoNotDeclareAProperty:
+      type: boolean

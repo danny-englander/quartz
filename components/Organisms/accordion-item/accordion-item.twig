@@ -1,0 +1,22 @@
+ <section{{ attributes.addClass('c-accordion__item ac').merge(attributes).addClass(classes) }}>
+
+  <h2 class="c-accordion__item-header ac-header">
+    <button type="button"
+            class="c-accordion__item-trigger ac-trigger"
+            aria-controls="accordion-content-{{ id }}">
+      {{ heading }}
+    </button>
+  </h2>
+
+  <div class="c-accordion-item__panel ac-panel"
+       id="accordion-content-{{ id }}"
+       aria-hidden="true">
+    <div class="c-accordion-item__content-wrapper">
+      <div class="c-accordion-item__text ac-text">
+        {% block body %}
+          {{ ac_content | raw }}
+        {% endblock body %}
+      </div>
+    </div>
+  </div>
+</section>
