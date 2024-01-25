@@ -1,0 +1,51 @@
+{#
+# For slots that have an optional field, we need to do a
+# render check right in the componet template using twig set
+# and then check with a trim / is not empty.
+# A "slot" which is basically some arbitrary text
+# which will be replaced by the Drupal body text field anyway.
+# Thus, the usage of {% block body %}
+#}
+{% set body_content %}
+  {% block body %}
+    {# CTA body text. #}
+    {{ bodyText | raw }}
+  {% endblock %}
+{% endset %}
+{# ------------------------- #}
+
+<section class="c-cta">
+  <div class="c-cta__wrap">
+    <div class="c-cta__content-wrap">
+
+      {# CTA Heading #}
+      <div class="c-cta__heading">
+        <h2>{{ heading }}</h2>
+      </div>
+
+      {% if body_content|trim is not empty %}
+        <div class="c-cta__body-text">
+          {{ body_content }}
+        </div>
+      {% endif %}
+
+      {# Button link component. #}
+      <div class="c-cta__link">
+        {{ include('quartz:button-link', {
+          text: ctaText,
+          href: ctaHref,
+          target: ctaTarget,
+        }, with_context = true) }}
+      </div>
+    </div>
+
+    <div class="c-cta__media-wrap">
+      <div class="c-cta__media">
+        {% block media_image %}
+          <img src="{{ mediaImage }}" width="800" height="500" loading="lazy"
+               alt="blades of grass in a field with blue sky">
+        {% endblock %}
+      </div>
+    </div>
+  </div>
+</section>

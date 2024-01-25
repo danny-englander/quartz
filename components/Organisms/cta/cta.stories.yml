@@ -1,0 +1,20 @@
+title: Components/quartz/Organisms/Call to Action
+argTypes:
+  ctaTarget:
+    defaultValue: ""
+    control: radio
+    options:
+      Empty: ""
+      Blank: "_blank"
+stories:
+  - name: "CTA 50/50"
+    args:
+      heading: Environmentally Responsible
+      ctaText: Act Now!
+      ctaHref: https://www.example.org
+      mediaImage: https://picsum.photos/id/29/800/450
+      bodyText: |
+        <p>Green technology is kind to the environment. Let's build a humanity that thrives while being kind to the planet yo.</p>
+    parameters:
+      options:
+        variant: "image first"

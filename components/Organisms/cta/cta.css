@@ -1,0 +1,39 @@
+.c-cta{
+  margin:0 -50vw;
+  width:100vw;
+  position:relative;
+  left:50%;
+  right:50%;
+  overflow:hidden;
+  background-color:var(--info-lighter);
+  position:relative;
+}
+@media (min-width: 1024px){
+.c-cta__wrap{
+    margin-left:-1.5625rem;
+    margin-right:-1.5625rem;
+    display:flex;
+    flex-flow:row wrap;
+}
+    .c-cta__wrap > *{
+    padding-left:1.5625rem;
+    padding-right:1.5625rem;
+    flex-grow:0;
+    flex-shrink:0;
+    min-height:0.0625rem;
+    width:50%;
+  }
+  }
+.c-cta__content-wrap{
+  padding:1.875rem 2.5rem 0.625rem 4.375rem;
+}
+.c-cta__media{
+  line-height:0;
+}
+.c-cta__media img{
+    width:100%;
+    height:auto;
+  }
+
+
+/*# sourceMappingURL=cta.css.map*/

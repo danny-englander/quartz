@@ -1,0 +1,26 @@
+@import "../../../src/css/utils/_index.css";
+
+.c-cta {
+  @mixin full-width;
+  background-color: var(--info-lighter);
+  position: relative;
+}
+
+.c-cta__wrap {
+  @media (--large) {
+    @mixin grid-cols 50%;
+  }
+}
+
+.c-cta__content-wrap {
+  padding: 30px 40px 10px 70px;
+}
+
+.c-cta__media {
+  line-height: 0;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
