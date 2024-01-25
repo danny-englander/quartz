@@ -1,0 +1,12 @@
+.main-menu {
+  display: flex;
+}
+
+.main-menu__item {
+  list-style: none;
+}
+
+a.main-menu__item-link {
+  color: var(--white);
+  margin-right: 10px;
+}

@@ -1,0 +1,46 @@
+@define-mixin container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* // Hide visually. */
+@define-mixin visually-hidden {
+  position: absolute !important;
+  clip: rect(1px, 1px, 1px, 1px);
+  overflow: hidden;
+  height: 1px;
+  width: 1px;
+  word-wrap: normal;
+}
+
+/* // Break out of a container. */
+@define-mixin full-width {
+  margin: 0 -50vw;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  overflow: hidden;
+}
+
+/* // Basic fade in / out effect for drop downs, menus, expandables, etc... */
+@define-mixin fade-effect {
+  transition-property: opacity, visibility;
+  transition-duration: 0.6s;
+  transition-delay: 0.1s;
+}
+
+/* // Basic fade in with a link. */
+@define-mixin link-effect {
+  transition: all 0.6s ease 0s;
+}
+
+/* // No animation. */
+@define-mixin no-animation {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+  transition-delay: 0.01ms, 0.01ms !important;
+}

@@ -1,0 +1,12 @@
+ul.utility-menu {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  padding: 4px 0;
+}
+
+.utility-menu__item-link {
+  color: var(--white);
+  margin-right: 6px;
+}

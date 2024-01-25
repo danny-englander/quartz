@@ -1,0 +1,82 @@
+:root {
+
+  /* Font */
+  --font-sans: verdana, "Lucida Grande", sans-serif;
+
+  /* Colors */
+  --base-lightest: #ffffff;
+  --base-lighter: #dfe1e2;
+  --base-light: #a9aeb1;
+  --base: #71767a;
+  --base-dark: #565c65;
+  --base-darker: #3d4551;
+  --base-darkest: #212121;
+
+  --white: var(--base-lightest);
+  --black: var(--base-darkest);
+
+  --primary-lightest: #e5faff;
+  --primary-lighter: #a8f2ff;
+  --primary-light: #52daf2;
+  --primary: #0081a1;
+  --primary-vivid: #0050d8;
+  --primary-dark: #00687d;
+  --primary-darker: #0e4f5c;
+  --primary-darkest: #093b44;
+
+  --secondary-lightest: #f9f0f2;
+  --secondary-lighter: #ffddea;
+  --secondary-light: #ffb4cf;
+  --secondary: #d72d79;
+  --secondary-vivid: #e41d3d;
+  --secondary-dark: #ab2165;
+  --secondary-darker: #731f44;
+  --secondary-darkest: #4f172e;
+
+  --accent-warm-lightest: #fef0c8;
+  --accent-warm-lighter: #ffe396;
+  --accent-warm-light: #ffbe2e;
+  --accent-warm: #936f38;
+  --accent-warm-dark: #7a591a;
+  --accent-warm-darker: #5c410a;
+  --accent-warm-darkest: #3b2b15;
+
+  --accent-cool-lightest: #f7f2ff;
+  --accent-cool-lighter: #ede3ff;
+  --accent-cool-light: #d5bfff;
+  --accent-cool: #9355dc;
+  --accent-cool-dark: #783cb9;
+  --accent-cool-darker: #54278f;
+  --accent-cool-darkest: #39215e;
+
+  --error-lighter: #f4e3db;
+  --error-light: #f39268;
+  --error: #d54309;
+  --error-dark: #b50909;
+  --error-darker: #6f3331;
+
+  --warning-lighter: #faf3d1;
+  --warning-light: #fee685;
+  --warning: #ffbe2e;
+  --warning-dark: #e5a000;
+  --warning-darker: #936f38;
+
+  --success-lighter: #ecf3ec;
+  --success-light: #70e17b;
+  --success: #00a91c;
+  --success-dark: #008817;
+  --success-darker: #216e1f;
+
+  --info-lighter: #e1f3f8;
+  --info-light: #c3ebfa;
+  --info: #59b9de;
+  --info-dark: #0d7ea2;
+  --info-darker: #074b69;
+
+  --disabled-light: #e6e6e6;
+  --disabled: #c9c9c9;
+  --disabled-dark: #adadad;
+
+  --emergency: #8b0a03;
+  --emergency-dark: #332d29;
+}

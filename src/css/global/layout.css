@@ -1,0 +1,9 @@
+.layout-content {
+  --max-width: 1260px;
+
+  @mixin container;
+}
+
+.component__item {
+  margin-bottom: 50px;
+}

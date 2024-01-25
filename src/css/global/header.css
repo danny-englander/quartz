@@ -1,0 +1,44 @@
+.header {
+  .menu {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.region-header {
+  display: flex;
+  align-items: center;
+}
+
+.top-bar {
+  background-color: var(--accent-cool-darkest);
+}
+
+.top-bar__wrap {
+  --max-width: 1260px;
+
+  @mixin container;
+}
+
+.page-header {
+  background-color: var(--black);
+  padding: 12px 0 2px 0;
+  margin-bottom: 20px;
+}
+
+.page-header__wrap {
+  --max-width: 1260px;
+
+  @mixin container;
+}
+
+.site-name {
+  @mixin visually-hidden;
+}
+
+.site-logo {
+  img {
+    width: 80px;
+    height: auto;
+  }
+}

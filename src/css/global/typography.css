@@ -1,0 +1,68 @@
+/* Example headings and sizes, update per your designs! */
+.h1,
+h1 {
+  font-size: 34px;
+  margin-bottom: 19px;
+  letter-spacing: 0.5px;
+  line-height: 40px;
+  margin-top: 0;
+
+  @media (--large) {
+    font-size: 45px;
+    margin-bottom: 22px;
+    line-height: 55px;
+  }
+}
+
+.h2,
+h2 {
+  font-size: 24px;
+  margin-bottom: 14px;
+  letter-spacing: 1px;
+  line-height: 32px;
+  margin-top: 0;
+
+  @media (--large) {
+    font-size: 28px;
+    margin-bottom: 16px;
+    line-height: 36px;
+  }
+}
+
+.h3,
+h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  line-height: 28px;
+  margin-top: 0;
+
+  @media (--large) {
+    font-size: 24px;
+    margin-bottom: 12px;
+    line-height: 34px;
+  }
+}
+
+.h4,
+h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  line-height: 28px;
+  margin-top: 0;
+}
+
+.h5,
+h5 {
+  font-size: 18px;
+  margin-bottom: 9px;
+  line-height: 24px;
+  margin-top: 0;
+}
+
+.h6,
+h6 {
+  font-size: 16px;
+  margin-bottom: 8px;
+  line-height: 25px;
+  margin-top: 0;
+}

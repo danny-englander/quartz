@@ -1,3 +1,9 @@
+global:
+  version: VERSION
+  css:
+    component:
+      css/global.css: {}
+
 base:
   version: VERSION
   css:
