@@ -4,6 +4,7 @@ type: theme
 starterkit: true
 version: VERSION
 libraries:
+  - quartz/global
   - quartz/base
   - quartz/messages
   - core/normalize

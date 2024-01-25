@@ -1,4 +1,4 @@
-# quartz, a Drupal Starterkit based theme using Single Directory Components
+# Quartz, a Drupal Starterkit based theme using Single Directory Components
 
 This theme is for Drupal *Single Directory Components* which is now in Drupal 10.1 core. It also uses these contrib modules and other libraries. Most of front-end heavy lifting happens in the theme using a [CL Server patch](https://www.drupal.org/project/cl_server/issues/3369045) so that Storybook and CL server work entirely within the theme. This has been a popular request from Front-end developers.
 
@@ -31,7 +31,7 @@ This theme is for Drupal *Single Directory Components* which is now in Drupal 10
 1. Use your existing site database or inititalize a new drupal site using the Lando command
 1. Run `lando drush uli` - Make sure you can login as admin
 1. Now map your own content to the Single Directory components. For examples of this, you can look at these templates, `block--inline-block--accordion.html.twig` and `block--inline-block--accordion.html.twig`. These map Drupal content to the SDC entity agnostic templates,`accordion.twig`and `accordion-item.twig` respectively.
-1. Run `lando storybook`- This will start storybook in the theme and you can access it at `http://localhost:6106/`
+1. Run `lando storybook`- This will start storybook in the theme and you can access it at `http://localhost:9210/`
 1. Run `lando watch` - This will start Laravel Mix watching for CSS changes and stylelint the CSS at `http://localhost:3000/`
 
 ## Debugging
