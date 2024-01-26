@@ -382,9 +382,9 @@ h6{
   padding-right:0.9375rem;
 }
 .page-header{
-  background-color:var(--black);
   padding:0.75rem 0 0.125rem 0;
   margin-bottom:1.25rem;
+  border-bottom:3px dashed var(--base-darkest);
 }
 .page-header__wrap{
   --max-width:78.75rem;
@@ -406,7 +406,7 @@ h6{
   word-wrap:normal;
 }
 .site-logo img{
-    width:5rem;
+    width:7.5rem;
     height:auto;
   }
 .main-menu{

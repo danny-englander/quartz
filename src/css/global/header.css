@@ -21,9 +21,9 @@
 }
 
 .page-header {
-  background-color: var(--black);
   padding: 12px 0 2px 0;
   margin-bottom: 20px;
+  border-bottom: 3px dashed var(--base-darkest);
 }
 
 .page-header__wrap {
@@ -38,7 +38,7 @@
 
 .site-logo {
   img {
-    width: 80px;
+    width: 120px;
     height: auto;
   }
 }
