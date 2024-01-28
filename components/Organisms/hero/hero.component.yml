@@ -19,12 +19,9 @@ props:
       type: string
       examples:
         - hello lorum ipsum
-    imagePosition:
-      title: Image Position
-      type: string
-      enum:
-        - first
-        - last
+    Image_Inverse:
+      label: "inverse"
+      type: boolean
     mediaImage:
       title: Media Image
       description: Media image for the hero.

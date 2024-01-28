@@ -1,11 +1,9 @@
 title: Components/quartz/Organisms/Hero
 argTypes:
-  imagePosition:
+  Image_Inverse:
     defaultValue: ""
-    control: radio
-    options:
-      Foozozozoz: "first"
-      Last: "last"
+    control: boolean
+    Inverse: "inverse"
 stories:
   - name: "Hero Banner"
     args:
