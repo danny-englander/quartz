@@ -1,4 +1,4 @@
-@import "../../../src/css/utils/_index.css";
+@import "../../_css/utils/_index.css";
 
 .c-cta {
   @mixin full-width;

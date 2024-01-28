@@ -1,8 +1,27 @@
-@import "../../../src/css/utils/_index.css";
+@import "../../_css/utils/_index.css";
 
 .c-hero {
   background-color: var(--black);
   @mixin full-width;
+}
+
+.c-hero__wrap {
+  display: flex;
+  align-items: center;
+
+  > * {
+    width: 50%;
+  }
+}
+
+.c-hero__content-wrap {
+  padding: 30px 40px 30px 50px;
+}
+
+.c-hero__heading {
+  > h1 {
+    color: var(--white);
+  }
 }
 
 .c-hero__media {
@@ -11,12 +30,6 @@
   img {
     width: 100%;
     height: auto;
-  }
-}
-
-.c-hero__heading {
-  > h2 {
-    color: var(--white);
   }
 }
 

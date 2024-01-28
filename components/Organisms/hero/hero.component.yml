@@ -19,6 +19,12 @@ props:
       type: string
       examples:
         - hello lorum ipsum
+    imagePosition:
+      title: Image Position
+      type: string
+      enum:
+        - first
+        - last
     mediaImage:
       title: Media Image
       description: Media image for the hero.
