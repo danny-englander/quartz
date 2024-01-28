@@ -13,7 +13,7 @@
   --base-darkest: #212121;
 
   --white: var(--base-lightest);
-  --black: var(--base-darkest);
+  --black: #000000;
 
   --primary-lightest: #e5faff;
   --primary-lighter: #a8f2ff;

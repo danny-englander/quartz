@@ -16,11 +16,11 @@ html {
 
 body {
   font-size: 100%;
-  font-weight: 400;
+  font-weight: 500;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.7;
-  font-family: var(--font-sans);
+  font-family: "Noto Sans Thai", sans-serif;
   color: var(--black);
   overflow-x: hidden;
 }

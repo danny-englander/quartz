@@ -1,16 +1,17 @@
 /* Example headings and sizes, update per your designs! */
 .h1,
 h1 {
-  font-size: 34px;
-  margin-bottom: 19px;
-  letter-spacing: 0.5px;
-  line-height: 40px;
+  font-size: 53px;
+  margin-bottom: 22px;
+  letter-spacing: 3px;
+  line-height: 1;
   margin-top: 0;
+  font-weight: 700;
 
   @media (--large) {
-    font-size: 45px;
-    margin-bottom: 22px;
-    line-height: 55px;
+    font-size: 82px;
+    margin-bottom: 27px;
+    line-height: 1.1;
   }
 }
 
@@ -65,4 +66,9 @@ h6 {
   margin-bottom: 8px;
   line-height: 25px;
   margin-top: 0;
+}
+
+p,
+li {
+  font-size: 18px;
 }
