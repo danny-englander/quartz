@@ -9,7 +9,7 @@
   --base-darkest:#212121;
 
   --white:var(--base-lightest);
-  --black:var(--base-darkest);
+  --black:#000000;
 
   --primary-lightest:#e5faff;
   --primary-lighter:#a8f2ff;
@@ -258,11 +258,11 @@ html{
 }
 body{
   font-size:100%;
-  font-weight:400;
+  font-weight:500;
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale;
   line-height:1.7;
-  font-family:var(--font-sans);
+  font-family:"Noto Sans Thai", sans-serif;
   color:var(--black);
   overflow-x:hidden;
 }
@@ -279,18 +279,19 @@ body{
 }
 .h1,
 h1{
-  font-size:2.125rem;
-  margin-bottom:1.1875rem;
-  letter-spacing:0.03125rem;
-  line-height:2.5rem;
+  font-size:3.3125rem;
+  margin-bottom:1.375rem;
+  letter-spacing:0.1875rem;
+  line-height:1;
   margin-top:0;
+  font-weight:700;
 }
 @media (min-width: 1024px){
 .h1,
 h1{
-    font-size:2.8125rem;
-    margin-bottom:1.375rem;
-    line-height:3.4375rem
+    font-size:5.125rem;
+    margin-bottom:1.6875rem;
+    line-height:1.1
 }
   }
 .h2,
@@ -345,6 +346,10 @@ h6{
   line-height:1.5625rem;
   margin-top:0;
 }
+p,
+li{
+  font-size:1.125rem;
+}
 .layout-content{
   --max-width:78.75rem;
 
@@ -382,9 +387,9 @@ h6{
   padding-right:0.9375rem;
 }
 .page-header{
-  background-color:var(--black);
   padding:0.75rem 0 0.125rem 0;
   margin-bottom:1.25rem;
+  border-bottom:3px dashed var(--base-darkest);
 }
 .page-header__wrap{
   --max-width:78.75rem;
@@ -406,7 +411,7 @@ h6{
   word-wrap:normal;
 }
 .site-logo img{
-    width:5rem;
+    width:7.5rem;
     height:auto;
   }
 .main-menu{

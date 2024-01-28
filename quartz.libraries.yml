@@ -2,6 +2,8 @@ global:
   version: VERSION
   css:
     component:
+      //fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500,600,700&display=swap':
+        { type: external, minified: true }
       css/global.css: {}
 
 base:
