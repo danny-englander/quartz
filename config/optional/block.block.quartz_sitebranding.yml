@@ -2,6 +2,7 @@ langcode: en
 status: true
 dependencies:
   module:
+    - block_class
     - system
   theme:
     - quartz
@@ -18,5 +19,5 @@ settings:
   provider: system
   use_site_logo: true
   use_site_name: true
-  use_site_slogan: true
+  use_site_slogan: false
 visibility: {}

@@ -3,8 +3,6 @@ status: true
 dependencies:
   theme:
     - quartz
-_core:
-  default_config_hash: ACjBZI5shAMiiUpsz-inLYVXDqNNXRnSzAWV3kV_8Hw
 id: quartz_primary_local_tasks
 theme: quartz
 region: hidden

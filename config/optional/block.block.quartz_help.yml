@@ -5,8 +5,6 @@ dependencies:
     - help
   theme:
     - quartz
-_core:
-  default_config_hash: jccFSSVqV0WCDb6NtML1VWAWTtDbZ-zn5YgTRMgMrIM
 id: quartz_help
 theme: quartz
 region: help

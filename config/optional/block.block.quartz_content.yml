@@ -5,8 +5,6 @@ dependencies:
     - system
   theme:
     - quartz
-_core:
-  default_config_hash: a0Yyx1GeyKarZ4T_yXQBR_ZFKnXiFLtxAb6gWLd8nr0
 id: quartz_content
 theme: quartz
 region: content

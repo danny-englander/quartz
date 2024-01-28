@@ -3,8 +3,6 @@ status: true
 dependencies:
   theme:
     - quartz
-_core:
-  default_config_hash: fNwDdW063tk_ktzSWzZVeQS9wzvLooVO280BQ9WrsIs
 id: quartz_page_title
 theme: quartz
 region: content

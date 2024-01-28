@@ -5,8 +5,6 @@ dependencies:
     - system
   theme:
     - quartz
-_core:
-  default_config_hash: "-Ac3ISpIT0PQ-whzD7_dw0SdKi6dAbRFNWdSjOiVDqg"
 id: quartz_messages
 theme: quartz
 region: hidden
