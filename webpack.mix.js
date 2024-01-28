@@ -61,7 +61,7 @@ postCssFiles.forEach((postCssFile) => {
 
 // For global.css
 mix.postCss(
-  path.resolve(__dirname, "./src/css/global/_index.css"),
+  path.resolve(__dirname, "./components/_css/global/_index.css"),
   "css/global.css",
   // PostCSS plugins array.
   postCssPlugins
@@ -73,9 +73,7 @@ mix.browserSync({
   host: "quartz.lndo.site",
   proxy: "quartz.lndo.site",
   files: [
-    "components/**/*post.css",
     "components/**/*.css",
-    "css/global.css",
     "components/**/*.twig",
     "templates/**/*.twig",
   ]
