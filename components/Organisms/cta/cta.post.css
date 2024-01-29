@@ -13,7 +13,11 @@
 }
 
 .c-cta__content-wrap {
-  padding: 30px 40px 10px 70px;
+  padding: 30px 30px 30px 30px;
+
+  @media (--large) {
+    padding: 30px 40px 10px 70px;
+  }
 }
 
 .c-cta__media {

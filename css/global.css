@@ -279,19 +279,18 @@ body{
 }
 .h1,
 h1{
-  font-size:3.3125rem;
-  margin-bottom:1.375rem;
+  font-size:2.875rem;
+  margin-bottom:1.5625rem;
   letter-spacing:0.1875rem;
-  line-height:1;
+  line-height:1.1;
   margin-top:0;
   font-weight:700;
 }
 @media (min-width: 1024px){
 .h1,
 h1{
-    font-size:5.125rem;
-    margin-bottom:1.6875rem;
-    line-height:1.1
+    font-size:4.25rem;
+    margin-bottom:1.6875rem
 }
   }
 .h2,

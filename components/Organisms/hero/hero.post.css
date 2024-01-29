@@ -6,16 +6,18 @@
 }
 
 .c-hero__wrap {
-  display: flex;
-  align-items: center;
-
-  > * {
-    width: 50%;
+  @media (--large) {
+    @mixin grid-cols 50%;
+    align-items: center;
   }
 }
 
 .c-hero__content-wrap {
-  padding: 30px 40px 30px 50px;
+  padding: 20px 30px 20px 20px;
+
+  @media (--large) {
+    padding: 30px 40px 30px 50px;
+  }
 }
 
 .c-hero__heading {

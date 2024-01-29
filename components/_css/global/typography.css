@@ -1,17 +1,16 @@
 /* Example headings and sizes, update per your designs! */
 .h1,
 h1 {
-  font-size: 53px;
-  margin-bottom: 22px;
+  font-size: 46px;
+  margin-bottom: 25px;
   letter-spacing: 3px;
-  line-height: 1;
+  line-height: 1.1;
   margin-top: 0;
   font-weight: 700;
 
   @media (--large) {
-    font-size: 82px;
+    font-size: 68px;
     margin-bottom: 27px;
-    line-height: 1.1;
   }
 }
 

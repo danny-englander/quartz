@@ -27,7 +27,13 @@
 }
 
 .c-cta__content-wrap {
-  padding:1.875rem 2.5rem 0.625rem 4.375rem;
+  padding:1.875rem 1.875rem 1.875rem 1.875rem;
+}
+
+@media (width >= 1024px) {
+  .c-cta__content-wrap {
+    padding:1.875rem 2.5rem 0.625rem 4.375rem
+  }
 }
 
 .c-cta__media {
