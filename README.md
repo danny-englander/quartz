@@ -1,4 +1,4 @@
-# Quartz, a Drupal Starterkit based theme using Single Directory Components
+# Quartz, a Drupal Starterkit based theme using Single Directory Components, Storybook, and PostCSS
 
 This theme is for Drupal *Single Directory Components* which is now in Drupal 10.1 core. It also uses these contrib modules and other libraries. Most of front-end heavy lifting happens in the theme using a [CL Server patch](https://www.drupal.org/project/cl_server/issues/3369045) so that Storybook and CL server work entirely within the theme.
 
