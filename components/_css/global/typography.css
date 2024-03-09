@@ -9,8 +9,8 @@ h1 {
   font-weight: 700;
 
   @media (--large) {
-    font-size: 68px;
-    margin-bottom: 27px;
+    font-size: 58px;
+    margin-bottom: 24px;
   }
 }
 
