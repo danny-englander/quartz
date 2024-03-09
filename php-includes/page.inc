@@ -20,7 +20,8 @@ function quartz_preprocess_page(array &$vars) {
       $node->hasField('field_hide_page_title') &&
       !$node->get('field_hide_page_title')->isEmpty()
     ) {
-      if ($node->get("field_hide_page_title")[0]->value === '1') {
+      // Correctly access the value of the field.
+      if ($node->get('field_hide_page_title')->get(0)->value === '1') {
         // If the boolean is checked, remove the standard page title.
         unset($vars['page']['content']['quartz_page_title']);
       }
