@@ -10,6 +10,27 @@ use Drupal\node\NodeInterface;
 /**
  * Implements hook_preprocess_HOOK() for page.html.twig.
  */
+function quartz_preprocess_page(array &$vars) {
+  // Define the node.
+  $node = \Drupal::routeMatch()->getParameter('node');
+
+  if ($node instanceof NodeInterface) {
+    // Check for field_hide_page_title.
+    if (
+      $node->hasField('field_hide_page_title') &&
+      !$node->get('field_hide_page_title')->isEmpty()
+    ) {
+      if ($node->get("field_hide_page_title")[0]->value === '1') {
+        // If the boolean is checked, remove the standard page title.
+        unset($vars['page']['content']['quartz_page_title']);
+      }
+    }
+  }
+}
+
+/**
+ * Implements hook_preprocess_HOOK() for page.html.twig.
+ */
 function quartz_page_attachments(array &$attachments) {
   $attachments['#attached']['html_head'][] = [
     [
