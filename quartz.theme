@@ -5,41 +5,11 @@
  * Functions to support theming.
  */
 
-/**
- * Implements hook_preprocess_image_widget().
- */
-function quartz_preprocess_image_widget(array &$variables) {
-  $data = &$variables['data'];
-  // This prevents image widget templates from rendering preview container HTML
-  // to users that do not have permission to access these previews.
-  // @todo revisit in https://drupal.org/node/953034
-  // @todo revisit in https://drupal.org/node/3114318
-  if (isset($data['preview']['#access']) && $data['preview']['#access'] === FALSE) {
-    unset($data['preview']);
-  }
-}
-
-function quartz_page_attachments(array &$attachments) {
-  $attachments['#attached']['html_head'][] = [
-    [
-      '#tag' => 'link',
-      '#attributes' => [
-        'rel' => 'preconnect',
-        'href' => 'https://fonts.googleapis.com',
-      ],
-    ],
-    'preconnect_fonts_googleapis',
-  ];
-
-  $attachments['#attached']['html_head'][] = [
-    [
-      '#tag' => 'link',
-      '#attributes' => [
-        'rel' => 'preconnect',
-        'href' => 'https://fonts.gstatic.com',
-        'crossorigin' => '',
-      ],
-    ],
-    'preconnect_fonts_gstatic',
-  ];
+// Includes for individual or grouped functions.
+// Create new includes as needed.
+// Theme suggestions will be with its
+// corresponding preprocess function.
+$includes_path = dirname(__FILE__) . '/php-includes/*.inc';
+foreach (glob($includes_path) as $filename) {
+  require_once dirname(__FILE__) . '/php-includes/' . basename($filename);
 }
